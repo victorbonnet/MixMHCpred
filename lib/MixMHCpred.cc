@@ -504,7 +504,7 @@ void make_pred(){
     fprintf (pFile, "#\n");
     fprintf (pFile, "####################\n");
 
-    fprintf (pFile, "Peptide\t");
+    fprintf (pFile, "TPPTPeptide\t");
     //fprintf (pFile, "Max_score\tMax_allele\tRanking\tP_val");
     fprintf (pFile, "Score_bestAllele\tBestAllele\tPval_bestAllele");
     for(int h=0; h<nh; h++){
