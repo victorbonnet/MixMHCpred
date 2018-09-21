@@ -493,7 +493,7 @@ void make_pred(){
     pFile=fopen(output_file,"w");
     
     
-    fprintf (pFile, "####################\n");
+    fprintf (pFile, "###################!\n");
     fprintf (pFile, "# Output from MixMHCpred (v2.0.1)\n");
     fprintf (pFile, "# Alleles: %s",alleles[0]); for(int h=1; h<nh; h++){fprintf (pFile, ", %s", alleles[h]);} fprintf (pFile, "\n");
     fprintf (pFile, "# Input file: %s\n", input_file_original);
@@ -502,7 +502,7 @@ void make_pred(){
     fprintf (pFile, "#\n# To cite MixMHCpred2.0.1, please refer to:\n");
     fprintf (pFile, "# Gfeller et al. The length distribution and multiple specificity of naturally presented HLA-I ligands, BioRxiv (2018).\n");
     fprintf (pFile, "#\n");
-    fprintf (pFile, "####################\n");
+    fprintf (pFile, "###################\n");
 
     fprintf (pFile, "Peptide\t");
     //fprintf (pFile, "Max_score\tMax_allele\tRanking\tP_val");
