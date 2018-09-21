@@ -522,7 +522,7 @@ void make_pred(){
 	}
 	
 	if(max_score[i] > -10000){
-	    fprintf (pFile, "\t%.6f\t", max_score[i]);
+	    fprintf (pFile, "\t%.3f\t", max_score[i]);
 	    //fprintf (pFile, "%s\t%.0f", alleles[max_pos[i]], rank_all[i]);
 	    fprintf (pFile, "%s", alleles[max_pos[i]]);
 	    cond=0;
